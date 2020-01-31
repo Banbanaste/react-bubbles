@@ -6,7 +6,7 @@ const NavBar = props => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Friends App</NavbarBrand>
+        <NavbarBrand href="/">Bubbles</NavbarBrand>
         <Nav className="mr-auto" navbar>
           <NavItem>
             <Link to="/login">

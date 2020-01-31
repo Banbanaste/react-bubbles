@@ -5,7 +5,7 @@ import { Container } from "reactstrap";
 import PrivateRoute from "./components/PrivateRoute";
 import NavBar from "./components/NavBar";
 import Login from "./components/Login";
-/* import Dash from "./components/Dash"; */
+import BubblePage from "./components/BubblePage";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Container>
         <NavBar />
         <Switch>
-          {/* <PrivateRoute path="/protected" component={Dash} /> */}
+          <PrivateRoute path="/protected" component={BubblePage} />
           <Route path="/login" component={Login} />
           <Route component={Login} />
         </Switch>
